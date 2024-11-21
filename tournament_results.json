@@ -1,0 +1,152 @@
+{
+    "player_stats": {
+        "Greedy AI": {
+            "wins": 20,
+            "losses": 5,
+            "draws": 0,
+            "average_score": 2159.88,
+            "score_std_dev": 1617.82,
+            "total_games": 25,
+            "win_rate": 80.0
+        },
+        "Adversarial AI": {
+            "wins": 10,
+            "losses": 15,
+            "draws": 0,
+            "average_score": 1627.00,
+            "score_std_dev": 1231.57,
+            "total_games": 25,
+            "win_rate": 40.0
+        },
+        "MCTS AI": {
+            "wins": 15,
+            "losses": 10,
+            "draws": 0,
+            "average_score": 1865.00,
+            "score_std_dev": 1320.30,
+            "total_games": 25,
+            "win_rate": 60.0
+        },
+        "Conservative AI": {
+            "wins": 5,
+            "losses": 20,
+            "draws": 0,
+            "average_score": 1684.40,
+            "score_std_dev": 1042.78,
+            "total_games": 25,
+            "win_rate": 20.0
+        }
+    },
+    "matchups": {
+        "Greedy_vs_Greedy": {
+            "player1": "Greedy AI",
+            "player2": "Greedy AI",
+            "scores": [
+                [1112.60, 1021.60],
+                [1112.60, 1021.60],
+                [1112.60, 1021.60],
+                [1112.60, 1021.60],
+                [1112.60, 1021.60]
+            ]
+        },
+        "Adversarial_vs_Adversarial": {
+            "player1": "Adversarial AI",
+            "player2": "Adversarial AI",
+            "scores": [
+                [874.20, 670.20],
+                [874.20, 670.20],
+                [874.20, 670.20],
+                [874.20, 670.20],
+                [874.20, 670.20]
+            ]
+        },
+        "MCTS_vs_MCTS": {
+            "player1": "MCTS AI",
+            "player2": "MCTS AI",
+            "scores": [
+                [935.80, 955.40],
+                [935.80, 955.40],
+                [935.80, 955.40],
+                [935.80, 955.40],
+                [935.80, 955.40]
+            ]
+        },
+        "Conservative_vs_Conservative": {
+            "player1": "Conservative AI",
+            "player2": "Conservative AI",
+            "scores": [
+                [1142.00, 960.60],
+                [1142.00, 960.60],
+                [1142.00, 960.60],
+                [1142.00, 960.60],
+                [1142.00, 960.60]
+            ]
+        },
+        "Greedy_vs_Adversarial": {
+            "player1": "Greedy AI",
+            "player2": "Adversarial AI",
+            "scores": [
+                [1059.80, 799.60],
+                [1059.80, 799.60],
+                [1059.80, 799.60],
+                [1059.80, 799.60],
+                [1059.80, 799.60]
+            ]
+        },
+        "Greedy_vs_MCTS": {
+            "player1": "Greedy AI",
+            "player2": "MCTS AI",
+            "scores": [
+                [2773.40, 993.20],
+                [2773.40, 993.20],
+                [2773.40, 993.20],
+                [2773.40, 993.20],
+                [2773.40, 993.20]
+            ]
+        },
+        "Greedy_vs_Conservative": {
+            "player1": "Greedy AI",
+            "player2": "Conservative AI",
+            "scores": [
+                [4832.00, 846.80],
+                [4832.00, 846.80],
+                [4832.00, 846.80],
+                [4832.00, 846.80],
+                [4832.00, 846.80]
+            ]
+        },
+        "Adversarial_vs_MCTS": {
+            "player1": "Adversarial AI",
+            "player2": "MCTS AI",
+            "scores": [
+                [2137.40, 2472.00],
+                [2137.40, 2472.00],
+                [2137.40, 2472.00],
+                [2137.40, 2472.00],
+                [2137.40, 2472.00]
+            ]
+        },
+        "Adversarial_vs_Conservative": {
+            "player1": "Adversarial AI",
+            "player2": "Conservative AI",
+            "scores": [
+                [3653.60, 2200.40],
+                [3653.60, 2200.40],
+                [3653.60, 2200.40],
+                [3653.60, 2200.40],
+                [3653.60, 2200.40]
+            ]
+        },
+        "MCTS_vs_Conservative": {
+            "player1": "MCTS AI",
+            "player2": "Conservative AI",
+            "scores": [
+                [3968.60, 3272.20],
+                [3968.60, 3272.20],
+                [3968.60, 3272.20],
+                [3968.60, 3272.20],
+                [3968.60, 3272.20]
+            ]
+        }
+    }
+}
